@@ -1,0 +1,41 @@
+* {
+  background: black;
+  color: green;
+  font-size: 20px;
+}
+body {
+  max-width: 650px;
+  margin: auto;
+}
+h1{
+  font-size: 50px;
+  font-weight: bold;
+  max-width: 650px;
+  text-align: center;
+}
+#user-input {
+  background-color: white;
+  border: 3px green solid;
+  border-radius: 10px;
+  width: 400px;
+  height: 40px;
+  align-content: center;
+  display: block;
+  margin: 0 auto;
+  padding: 1px;
+}
+
+div {
+  border: 1px green solid;
+  border-radius: 10px;
+  text-align: center;
+  padding: 2px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* for moble */
+  body {
+    width: 100%;
+  }
+}
